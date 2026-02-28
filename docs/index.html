@@ -163,9 +163,7 @@
         
         .custom-marker { display: flex; align-items: center; justify-content: center; }
         
-        .embed-frame { width: 100%; height: 450px; border: none; background: var(--bg-primary); }
-        
-        .tweet-embed { padding: 16px; }
+        /* Links only - no embeds needed */
     </style>
 </head>
 <body>
@@ -243,33 +241,42 @@
             </div>
         </div>
         
-        <!-- FlightRadar24 Embed - REAL -->
-        <div class="panel span-6">
-            <div class="panel-header">
-                <div class="panel-title">🌍 FlightRadar24 — Middle East</div>
-                <a href="https://www.flightradar24.com/32.5,46,5" target="_blank" style="color:var(--accent-blue);font-size:0.8em;text-decoration:none">Open Full ↗</a>
-            </div>
-            <iframe class="embed-frame" src="https://www.flightradar24.com/simple_index.php?lat=32.5&lon=46&z=5&airports=0" loading="lazy"></iframe>
-        </div>
-        
-        <!-- NASA FIRMS Embed - REAL -->
-        <div class="panel span-6">
-            <div class="panel-header">
-                <div class="panel-title">🛰️ NASA FIRMS — Fire Detection</div>
-                <a href="https://firms.modaps.eosdis.nasa.gov/map/#d:today;l:fires_all;@46,32,5z" target="_blank" style="color:var(--accent-blue);font-size:0.8em;text-decoration:none">Open Full ↗</a>
-            </div>
-            <iframe class="embed-frame" src="https://firms.modaps.eosdis.nasa.gov/map/#d:today;l:fires_all;@46,32,5z" loading="lazy"></iframe>
-        </div>
-        
-        <!-- LiveUAMap Embed -->
+        <!-- Quick Launch - External Tools -->
         <div class="panel span-12">
             <div class="panel-header">
-                <div class="panel-title">🗺️ LiveUAMap — Conflict Tracker</div>
-                <a href="https://liveuamap.com/en" target="_blank" style="color:var(--accent-blue);font-size:0.8em;text-decoration:none">Open Full ↗</a>
+                <div class="panel-title">🚀 Live Intelligence Tools</div>
             </div>
-            <div style="padding:20px;text-align:center;background:var(--bg-tertiary)">
-                <p style="color:var(--text-secondary);margin-bottom:12px">LiveUAMap blocks embedding. Click below to open in new tab:</p>
-                <a href="https://liveuamap.com/en" target="_blank" style="display:inline-block;background:var(--accent-blue);color:white;padding:12px 24px;border-radius:6px;text-decoration:none;font-weight:600">🗺️ Open LiveUAMap</a>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;padding:16px;">
+                <a href="https://globe.adsbexchange.com/?lat=30&lon=46&zoom=5" target="_blank" style="display:flex;flex-direction:column;align-items:center;padding:20px;background:var(--bg-tertiary);border-radius:8px;text-decoration:none;border:1px solid var(--border);transition:all 0.2s">
+                    <span style="font-size:2em;margin-bottom:8px">📡</span>
+                    <span style="color:var(--accent-blue);font-weight:600">ADS-B Exchange</span>
+                    <span style="color:var(--text-secondary);font-size:0.8em;text-align:center">Unfiltered military flights</span>
+                </a>
+                <a href="https://www.flightradar24.com/32.5,46,5" target="_blank" style="display:flex;flex-direction:column;align-items:center;padding:20px;background:var(--bg-tertiary);border-radius:8px;text-decoration:none;border:1px solid var(--border);transition:all 0.2s">
+                    <span style="font-size:2em;margin-bottom:8px">✈️</span>
+                    <span style="color:var(--accent-blue);font-weight:600">FlightRadar24</span>
+                    <span style="color:var(--text-secondary);font-size:0.8em;text-align:center">Live aircraft tracking</span>
+                </a>
+                <a href="https://firms.modaps.eosdis.nasa.gov/map/#d:today;l:fires_all;@46,32,5z" target="_blank" style="display:flex;flex-direction:column;align-items:center;padding:20px;background:var(--bg-tertiary);border-radius:8px;text-decoration:none;border:1px solid var(--border);transition:all 0.2s">
+                    <span style="font-size:2em;margin-bottom:8px">🛰️</span>
+                    <span style="color:var(--accent-orange);font-weight:600">NASA FIRMS</span>
+                    <span style="color:var(--text-secondary);font-size:0.8em;text-align:center">Satellite fire detection</span>
+                </a>
+                <a href="https://liveuamap.com/en" target="_blank" style="display:flex;flex-direction:column;align-items:center;padding:20px;background:var(--bg-tertiary);border-radius:8px;text-decoration:none;border:1px solid var(--border);transition:all 0.2s">
+                    <span style="font-size:2em;margin-bottom:8px">🗺️</span>
+                    <span style="color:var(--accent-red);font-weight:600">LiveUAMap</span>
+                    <span style="color:var(--text-secondary);font-size:0.8em;text-align:center">Conflict tracking</span>
+                </a>
+                <a href="https://www.marinetraffic.com/en/ais/home/centerx:50/centery:26/zoom:6" target="_blank" style="display:flex;flex-direction:column;align-items:center;padding:20px;background:var(--bg-tertiary);border-radius:8px;text-decoration:none;border:1px solid var(--border);transition:all 0.2s">
+                    <span style="font-size:2em;margin-bottom:8px">🚢</span>
+                    <span style="color:var(--accent-blue);font-weight:600">MarineTraffic</span>
+                    <span style="color:var(--text-secondary);font-size:0.8em;text-align:center">Ship tracking (Persian Gulf)</span>
+                </a>
+                <a href="https://www.windy.com/?32.000,46.000,5" target="_blank" style="display:flex;flex-direction:column;align-items:center;padding:20px;background:var(--bg-tertiary);border-radius:8px;text-decoration:none;border:1px solid var(--border);transition:all 0.2s">
+                    <span style="font-size:2em;margin-bottom:8px">🌪️</span>
+                    <span style="color:var(--accent-green);font-weight:600">Windy</span>
+                    <span style="color:var(--text-secondary);font-size:0.8em;text-align:center">Weather & wind patterns</span>
+                </a>
             </div>
         </div>
         
