@@ -6,11 +6,6 @@
 <br>
 <br>
 
-<!-- War Crab Logo -->
-<img src="assets/clawdwatch-logo.png" width="200" alt="Clawdwatch - Combat Crab"/>
-
-<br>
-
 ### 🦀 *"See what they don't want you to see"*
 
 <br>
@@ -20,26 +15,34 @@
 [![Clawdbot](https://img.shields.io/badge/POWERED%20BY-CLAWDBOT-00d4ff?style=for-the-badge&labelColor=1a1a2e)](https://github.com/clawdbot/clawdbot)
 [![License](https://img.shields.io/badge/LICENSE-MIT-green?style=for-the-badge&labelColor=1a1a2e)](LICENSE)
 
-<br>
-
-<!-- Radar Animation -->
-<img src="https://media.giphy.com/media/l0HlNQ03J5JxX6OaI/giphy.gif" width="150" alt="Radar"/>
-
 </div>
 
 ---
 
-<div align="center">
+## Special Thanks
 
-## 📡 REAL-TIME INTELLIGENCE FEEDS
-
-<img src="https://media.giphy.com/media/3o7TKTDn976rzVgky4/giphy.gif" width="400" alt="Data Stream"/>
-
-</div>
+Huge thanks to **Claude** ([@claude](https://github.com/claude)) for the foundational contributions to the agent architecture and intelligence correlation engine. This project wouldn't exist without that work.
 
 ---
 
-## 🎯 What is Clawdwatch?
+## Why Now?
+
+We're living through a critical moment. As the US-Iran conflict escalates, information becomes both a weapon and a casualty. Governments on all sides control narratives. Social media is flooded with propaganda. News outlets pick sides. Regular people — the ones actually affected by airstrikes, sanctions, and chaos — are left trying to figure out what's real.
+
+During the 2020 Iran missile strikes, flight tracking enthusiasts on Twitter spotted diversions before news outlets reported anything. During Ukraine, OSINT researchers using public satellite imagery exposed troop movements that governments denied. Open-source intelligence isn't just for analysts anymore — it's how civilians protect themselves and each other.
+
+**Clawdwatch exists because:**
+- Mainstream media is slow and often biased
+- Governments lie or withhold information
+- Social media is full of propaganda and misinfo
+- People in conflict zones deserve real-time, verified intel
+- The tools exist — they just need to be connected
+
+This is about democratizing situational awareness. If a missile is heading somewhere, if flights are diverting, if ships are going dark — people should know before it hits the news cycle.
+
+---
+
+## What is Clawdwatch?
 
 **Clawdwatch** is an autonomous OSINT (Open Source Intelligence) agent that monitors, aggregates, and analyzes publicly available data from multiple sources — giving you real-time situational awareness during conflicts and global events.
 
@@ -47,9 +50,9 @@ No propaganda. No bias. Just data.
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│  🛩️  FLIGHT TRACKING    │  🚢 SHIP TRACKING    │  🛰️  SATELLITE  │
+│  FLIGHT TRACKING      │  SHIP TRACKING       │  SATELLITE      │
 ├─────────────────────────────────────────────────────────────────┤
-│  📡 LIVE FEEDS          │  📰 NEWS AGGREGATION │  🔍 VERIFICATION│
+│  LIVE FEEDS           │  NEWS AGGREGATION    │  VERIFICATION   │
 ├─────────────────────────────────────────────────────────────────┤
 │                    🦀 CLAWDWATCH AGENT                          │
 │               Correlate → Analyze → Alert                       │
@@ -58,13 +61,13 @@ No propaganda. No bias. Just data.
 
 ---
 
-## 🔥 Features
+## Features
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 📡 Multi-Source Monitoring
+### Multi-Source Monitoring
 
 - **Flight Tracking** — ADS-B Exchange, military aircraft movements
 - **Ship Tracking** — AIS data, naval movements, tanker activity
@@ -75,7 +78,7 @@ No propaganda. No bias. Just data.
 </td>
 <td width="50%" valign="top">
 
-### 🧠 AI-Powered Analysis
+### AI-Powered Analysis
 
 - **Anomaly Detection** — Flags unusual patterns
 - **Correlation Engine** — Connects dots across sources
@@ -87,32 +90,28 @@ No propaganda. No bias. Just data.
 </tr>
 </table>
 
-<div align="center">
-<img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="500" alt="Data Analysis"/>
-</div>
-
 ---
 
-## 🛰️ Intelligence Sources
+## Intelligence Sources
 
 <div align="center">
 
 | Source | Type | Coverage | Update Rate |
 |:------:|:----:|:--------:|:-----------:|
-| 🛩️ ADS-B Exchange | Flight | Global | Real-time |
-| 🚢 MarineTraffic | Naval | Global | Real-time |
-| 🛰️ Sentinel Hub | Satellite | Global | Daily |
-| 📱 Twitter/X | Social | Global | Real-time |
-| 📨 Telegram | Social | Regional | Real-time |
-| 📰 Reuters | News | Global | Hourly |
-| 📰 Al Jazeera | News | MENA | Hourly |
-| 🔊 WebSDR | Radio | Regional | Real-time |
+| ADS-B Exchange | Flight | Global | Real-time |
+| MarineTraffic | Naval | Global | Real-time |
+| Sentinel Hub | Satellite | Global | Daily |
+| Twitter/X | Social | Global | Real-time |
+| Telegram | Social | Regional | Real-time |
+| Reuters | News | Global | Hourly |
+| Al Jazeera | News | MENA | Hourly |
+| WebSDR | Radio | Regional | Real-time |
 
 </div>
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 ```bash
 # Clone the repo
@@ -131,33 +130,25 @@ npm run watch
 
 ---
 
-## 🗺️ Live Dashboard
-
-<div align="center">
-<img src="https://media.giphy.com/media/l46Cy1rHbQ92uuLXa/giphy.gif" width="600" alt="Map Dashboard"/>
-</div>
+## Live Dashboard
 
 The Clawdwatch dashboard gives you:
-- 🗺️ **Real-time map** with flight paths, ship routes, and event markers
-- 📊 **Activity graphs** showing movement patterns over time
-- 🚨 **Alert feed** with AI-flagged anomalies
-- 📝 **Intel briefings** auto-generated every hour
+- **Real-time map** with flight paths, ship routes, and event markers
+- **Activity graphs** showing movement patterns over time
+- **Alert feed** with AI-flagged anomalies
+- **Intel briefings** auto-generated every hour
 
 ---
 
-## 🚨 Alert System
-
-<div align="center">
-<img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="300" alt="Alert"/>
-</div>
+## Alert System
 
 Clawdwatch pushes alerts when it detects:
 
-- ✈️ Military aircraft entering monitored airspace
-- 🚢 Ships disabling AIS transponders (going dark)
-- 📡 Unusual flight pattern deviations
-- 🔥 Correlated activity across multiple sources
-- 📰 Breaking news matching your watchlist
+- Military aircraft entering monitored airspace
+- Ships disabling AIS transponders (going dark)
+- Unusual flight pattern deviations
+- Correlated activity across multiple sources
+- Breaking news matching your watchlist
 
 **Supported Channels:**
 - Telegram Bot
@@ -191,7 +182,7 @@ Clawdwatch runs on the [Clawdbot](https://github.com/clawdbot/clawdbot) agent fr
 
 ---
 
-## 📋 Roadmap
+## Roadmap
 
 - [x] Project scaffolding
 - [ ] ADS-B Exchange integration
@@ -205,7 +196,7 @@ Clawdwatch runs on the [Clawdbot](https://github.com/clawdbot/clawdbot) agent fr
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 This is built by the people, for the people. PRs welcome.
 
@@ -217,7 +208,7 @@ This is built by the people, for the people. PRs welcome.
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 Clawdwatch aggregates **publicly available** information only. It does not access classified data, hack systems, or break any laws. This tool is for **informational purposes** — always verify critical information through official channels.
 
@@ -225,7 +216,7 @@ Clawdwatch aggregates **publicly available** information only. It does not acces
 
 <div align="center">
 
-## 🦀 *"In the fog of war, be the one who sees clearly."*
+### 🦀 *"In the fog of war, be the one who sees clearly."*
 
 <br>
 
