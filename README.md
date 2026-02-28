@@ -59,7 +59,9 @@ We're living through a critical moment. As the US-Iran conflict escalates, infor
 | Source | Status | Data |
 |--------|--------|------|
 | ✈️ **Flight Tracking** | ✅ LIVE | OpenSky Network — 200+ flights in real-time |
+| 🎖️ **Military Detection** | ✅ LIVE | NATO callsigns, RAF, USAF, and more |
 | 📰 **News Aggregation** | ✅ LIVE | Al Jazeera, AP News — multi-source headlines |
+| 🌍 **Internet Blackouts** | ✅ LIVE | Monitors 15 countries for outages |
 | 📱 **Telegram Alerts** | ✅ LIVE | Push notifications for military/emergency aircraft |
 | 🌐 **Social Monitoring** | ✅ LIVE | Reddit OSINT feeds |
 | 🐦 **Twitter/X** | 🔑 Ready | Needs API bearer token |
@@ -71,10 +73,16 @@ We're living through a critical moment. As the US-Iran conflict escalates, infor
 ## Features
 
 **Real-Time Flight Tracking**
-- Military aircraft detection (NATO callsigns)
+- Military aircraft detection (NATO callsigns, RAF, USAF)
 - Emergency squawk monitoring (7500, 7600, 7700)
 - Regional filtering (Middle East, Europe, USA, Asia)
 - Live altitude, speed, origin data
+
+**Internet Blackout Detection**
+- Monitors 15 conflict-zone countries in real-time
+- Detects connectivity drops, degradation, and full blackouts
+- Countries: Iran, Iraq, Syria, Lebanon, Yemen, Israel, Palestine, Saudi Arabia, UAE, Qatar, Bahrain, Kuwait, Jordan, Ukraine, Russia
+- Alerts when countries go dark (often precedes military action)
 
 **News Aggregation**
 - Al Jazeera Middle East feed

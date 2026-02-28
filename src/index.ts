@@ -5,6 +5,7 @@ import { newsAggregator, NewsItem } from './sources/news';
 import { socialMonitor, SocialPost } from './sources/social';
 import { satelliteTracker } from './sources/satellite';
 import { shipTracker } from './sources/ships';
+import { internetMonitor } from './sources/internet';
 
 /**
  * 🦀 CLAWDWATCH
@@ -143,13 +144,26 @@ async function monitorSocial() {
   return posts.length;
 }
 
+async function monitorInternet() {
+  printStatus('Checking internet connectivity...');
+  
+  const statusLines = await internetMonitor.getStatus();
+  
+  console.log('\n🌍 INTERNET CONNECTIVITY:');
+  console.log('─'.repeat(60));
+  statusLines.forEach(line => console.log(`  ${line}`));
+  
+  return statusLines.length;
+}
+
 async function runMonitor() {
   const flightStats = await monitorFlights();
   const newsCount = await monitorNews();
   const socialCount = await monitorSocial();
+  await monitorInternet();
 
   console.log('\n' + '═'.repeat(60));
-  console.log(`📊 SUMMARY: ${flightStats.total} flights | ${newsCount} news | ${socialCount} social posts`);
+  console.log(`📊 SUMMARY: ${flightStats.total} flights | ${newsCount} news | ${socialCount} social`);
   
   if (telegramAlerter.isEnabled()) {
     console.log(`📱 Telegram: ✅ Connected`);
