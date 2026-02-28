@@ -1,19 +1,25 @@
 <div align="center">
 
-<!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:1a1a2e,50:16213e,100:0f3460&height=300&section=header&text=CLAWDWATCH&fontSize=80&fontColor=e94560&animation=twinkling&fontAlignY=40&desc=THE%20ALL-SEEING%20OSINT%20AGENT&descSize=20&descAlignY=65&stroke=e94560&strokeWidth=2" width="100%"/>
+```
+   ██████╗██╗      █████╗ ██╗    ██╗██████╗ ██╗    ██╗ █████╗ ████████╗ ██████╗██╗  ██╗
+  ██╔════╝██║     ██╔══██╗██║    ██║██╔══██╗██║    ██║██╔══██╗╚══██╔══╝██╔════╝██║  ██║
+  ██║     ██║     ███████║██║ █╗ ██║██║  ██║██║ █╗ ██║███████║   ██║   ██║     ███████║
+  ██║     ██║     ██╔══██║██║███╗██║██║  ██║██║███╗██║██╔══██║   ██║   ██║     ██╔══██║
+  ╚██████╗███████╗██║  ██║╚███╔███╔╝██████╔╝╚███╔███╔╝██║  ██║   ██║   ╚██████╗██║  ██║
+   ╚═════╝╚══════╝╚═╝  ╚═╝ ╚══╝╚══╝ ╚═════╝  ╚══╝╚══╝ ╚═╝  ╚═╝   ╚═╝    ╚═════╝╚═╝  ╚═╝
+```
 
 <br>
+
+### 🦀 THE ALL-SEEING OSINT AGENT
+
+*"See what they don't want you to see"*
+
 <br>
 
-### 🦀 *"See what they don't want you to see"*
-
-<br>
-
-<!-- Badges -->
-[![Status](https://img.shields.io/badge/STATUS-ACTIVE-e94560?style=for-the-badge&labelColor=1a1a2e)](https://github.com/cloudweaver/clawdwatch)
-[![Clawdbot](https://img.shields.io/badge/POWERED%20BY-CLAWDBOT-00d4ff?style=for-the-badge&labelColor=1a1a2e)](https://github.com/clawdbot/clawdbot)
-[![License](https://img.shields.io/badge/LICENSE-MIT-green?style=for-the-badge&labelColor=1a1a2e)](LICENSE)
+[![Status](https://img.shields.io/badge/STATUS-ACTIVE-red?style=flat-square&labelColor=000)](https://github.com/cloudweaver/clawdwatch)
+[![Clawdbot](https://img.shields.io/badge/POWERED%20BY-CLAWDBOT-blue?style=flat-square&labelColor=000)](https://github.com/clawdbot/clawdbot)
+[![License](https://img.shields.io/badge/LICENSE-MIT-green?style=flat-square&labelColor=000)](LICENSE)
 
 </div>
 
@@ -63,41 +69,26 @@ No propaganda. No bias. Just data.
 
 ## Features
 
-<table>
-<tr>
-<td width="50%" valign="top">
+**Multi-Source Monitoring**
+- Flight Tracking — ADS-B Exchange, military aircraft movements
+- Ship Tracking — AIS data, naval movements, tanker activity
+- Satellite Imagery — Sentinel Hub integration
+- Social Media — Twitter/X, Telegram, Reddit scraping
+- News Feeds — Multi-language, multi-perspective
 
-### Multi-Source Monitoring
-
-- **Flight Tracking** — ADS-B Exchange, military aircraft movements
-- **Ship Tracking** — AIS data, naval movements, tanker activity
-- **Satellite Imagery** — Sentinel Hub integration
-- **Social Media** — Twitter/X, Telegram, Reddit scraping
-- **News Feeds** — Multi-language, multi-perspective
-
-</td>
-<td width="50%" valign="top">
-
-### AI-Powered Analysis
-
-- **Anomaly Detection** — Flags unusual patterns
-- **Correlation Engine** — Connects dots across sources
-- **Propaganda Filter** — Identifies manipulation techniques
-- **Auto-Summarization** — Plain language briefings
-- **Verification** — Cross-references claims
-
-</td>
-</tr>
-</table>
+**AI-Powered Analysis**
+- Anomaly Detection — Flags unusual patterns
+- Correlation Engine — Connects dots across sources
+- Propaganda Filter — Identifies manipulation techniques
+- Auto-Summarization — Plain language briefings
+- Verification — Cross-references claims
 
 ---
 
 ## Intelligence Sources
 
-<div align="center">
-
 | Source | Type | Coverage | Update Rate |
-|:------:|:----:|:--------:|:-----------:|
+|--------|------|----------|-------------|
 | ADS-B Exchange | Flight | Global | Real-time |
 | MarineTraffic | Naval | Global | Real-time |
 | Sentinel Hub | Satellite | Global | Daily |
@@ -107,36 +98,17 @@ No propaganda. No bias. Just data.
 | Al Jazeera | News | MENA | Hourly |
 | WebSDR | Radio | Regional | Real-time |
 
-</div>
-
 ---
 
 ## Quick Start
 
 ```bash
-# Clone the repo
 git clone https://github.com/cloudweaver/clawdwatch.git
 cd clawdwatch
-
-# Install dependencies
 npm install
-
-# Configure your sources
 cp .env.example .env
-
-# Start the agent
 npm run watch
 ```
-
----
-
-## Live Dashboard
-
-The Clawdwatch dashboard gives you:
-- **Real-time map** with flight paths, ship routes, and event markers
-- **Activity graphs** showing movement patterns over time
-- **Alert feed** with AI-flagged anomalies
-- **Intel briefings** auto-generated every hour
 
 ---
 
@@ -150,11 +122,7 @@ Clawdwatch pushes alerts when it detects:
 - Correlated activity across multiple sources
 - Breaking news matching your watchlist
 
-**Supported Channels:**
-- Telegram Bot
-- Discord Webhook
-- Email
-- SMS (Twilio)
+**Supported Channels:** Telegram, Discord, Email, SMS
 
 ---
 
@@ -169,14 +137,6 @@ Clawdwatch runs on the [Clawdbot](https://github.com/clawdbot/clawdbot) agent fr
 │  ┌─────────┐  ┌─────────┐  ┌─────────┐  │
 │  │ SCRAPER │→ │ ANALYZE │→ │  ALERT  │  │
 │  └─────────┘  └─────────┘  └─────────┘  │
-│        ↓           ↓            ↓        │
-│  ┌─────────────────────────────────────┐ │
-│  │         CLAWDWATCH SKILL            │ │
-│  │   • Flight Monitor                  │ │
-│  │   • Ship Tracker                    │ │
-│  │   • News Aggregator                 │ │
-│  │   • Anomaly Detector                │ │
-│  └─────────────────────────────────────┘ │
 └──────────────────────────────────────────┘
 ```
 
@@ -198,13 +158,7 @@ Clawdwatch runs on the [Clawdbot](https://github.com/clawdbot/clawdbot) agent fr
 
 ## Contributing
 
-This is built by the people, for the people. PRs welcome.
-
-1. Fork it
-2. Create your branch (`git checkout -b feature/sick-feature`)
-3. Commit (`git commit -am 'Added sick feature'`)
-4. Push (`git push origin feature/sick-feature`)
-5. Open a PR
+Built by the people, for the people. PRs welcome.
 
 ---
 
@@ -216,10 +170,8 @@ Clawdwatch aggregates **publicly available** information only. It does not acces
 
 <div align="center">
 
-### 🦀 *"In the fog of war, be the one who sees clearly."*
+*In the fog of war, be the one who sees clearly.*
 
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=120&section=footer"/>
+🦀
 
 </div>
