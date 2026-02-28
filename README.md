@@ -110,6 +110,12 @@ cp .env.example .env
 npm run watch
 ```
 
+### Demo
+
+<div align="center">
+<img src="assets/demo.svg" alt="Clawdwatch Demo" width="700"/>
+</div>
+
 ---
 
 ## Alert System
